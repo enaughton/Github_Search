@@ -7,7 +7,7 @@ import "tailwindcss/tailwind.css";
 function List({ data: { items, total_count, page } }) {
   return (
     <div>
-      <h3 class="flex justify-center ">Total: {total_count}</h3>
+      <p class="flex justify-center ">Total: {total_count}</p>
       <div class="grid gap-4 grid-cols-4 space-x-2 w-full bg-white shadow-md rounded-lg md:overflow- mx-auto">
         {items.map((item) => (
           <div>
